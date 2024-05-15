@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="RESURRECCION_TSA3.CSS">
+</head>
+<div>
+<body>
+    <img src="FEU_Tech_official_seal.png" alt="FEU TECH LOGO"class=logo>
+    <h1 class="heading">ADVISORY</h1>
+    <H2 class="subheading"> ONLINE SYNCHRONOUS CLASSES ON APRIL 29 AND 30, 2024 </H2>
+   <p1 class="paragraph1">Due to the scheduled nationwide transport strike,<br>
+    FEU Tech will conduct synchronous online classes 
+     on <span style="color:green;font-weight:bold";>April 29 and April 30, 2024</span>. <br> Student are advised to check their <br> Canvas account for assigments or consult with <br>
+    faculty for other instructions.
+
+   </p1>
+   <br>
+   <br>
+ <p2 class="paragraph2"> All offices will be open onsite to assist you with enrollment and <br>
+ other transactions and will follow regular work operations schedule.
+</p>
+<br>
+    <p3 class="paragraph3">Keep safe,  Tamaraws.</p1>
+</body>
+</div>
+</html>
