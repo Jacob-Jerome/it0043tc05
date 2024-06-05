@@ -30,7 +30,7 @@
     text-align: center;
 }
 
-#naruto .info, #minato .info{
+#naruto .info, #minato{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,6 +57,69 @@ img{
     line-height: 1.5;
     font-weight: 300;
 }
+#naruto{
+    background-color: #e36161;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#sasuke{
+    background-color: #8a02b4;
+    color: black;
+}
+
+#kakashi{
+    background-color: #606d7f;
+}
+
+#minato{
+    background-color: #ffe600;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+#madara{
+    background-color: #9a0202;
+    grid-column: 4/5;
+    grid-row: 1/3;
+}
+
+#naruto:hover {
+    background-image: url('https://i.makeagif.com/media/8-11-2023/j-pHLm.gif'); 
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#sasuke:hover {
+    background-image: url('https://media4.giphy.com/media/I6wUi5eTdUCWI/giphy.gif?cid=6c09b952boiikfixoc9bssu7cyf0pk42sauobhbpiihnv93c&ep=v1_gifs_search&rid=giphy.gif&ct=g'); 
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+}
+#madara:hover {
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjFvNDE4aHo0MXJ3dmU5a2xrbGxmcTB5Z256Ym03cWEzdWZnMHcyZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/8qXJTU5oEhQZO/200.webp'); 
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: top;
+    
+    
+}
+
+#kakashi:hover {
+    background-image: url('https://media0.giphy.com/media/XDVNmIREHVTfsBowCT/200.webp?cid=ecf05e47ea2kvvcleps0g1k3l04oasc4xmgak3purmgx57jn&ep=v1_gifs_search&rid=200.webp&ct=g'); 
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position: top;
+    
+    
+}
+#minato:hover {
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDR6dTE3bnpoN3hmeDVtbWFiMnNtbGFncWpsMWIycXNpeTdjdjVwNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XFLSzB1E7gYdW/200.webp'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+
 
 
 @media (max-width:900px){
@@ -144,69 +207,6 @@ img{
         gap: 20px;
     }
 
-}
-
-
-#naruto{
-    background-color: #e36161;
-    grid-column: 1/3;
-    grid-row: 1/2;
-}
-
-#sasuke{
-    background-color: #8a02b4;
-    color: black;
-}
-
-#kakashi{
-    background-color: #606d7f;
-}
-
-#minato{
-    background-color: #ffe600;
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-
-#madara{
-    background-color: #9a0202;
-    grid-column: 4/5;
-    grid-row: 1/3;
-}
-
-#naruto:hover {
-    background-image: url('https://i.makeagif.com/media/8-11-2023/j-pHLm.gif'); 
-    background-position: top;
-    background-repeat: no-repeat;
-}
-#sasuke:hover {
-    background-image: url('https://media4.giphy.com/media/I6wUi5eTdUCWI/giphy.gif?cid=6c09b952boiikfixoc9bssu7cyf0pk42sauobhbpiihnv93c&ep=v1_gifs_search&rid=giphy.gif&ct=g'); 
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: top;
-}
-#madara:hover {
-    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjFvNDE4aHo0MXJ3dmU5a2xrbGxmcTB5Z256Ym03cWEzdWZnMHcyZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/8qXJTU5oEhQZO/200.webp'); 
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-position: top;
-    
-    
-}
-
-#kakashi:hover {
-    background-image: url('https://media0.giphy.com/media/XDVNmIREHVTfsBowCT/200.webp?cid=ecf05e47ea2kvvcleps0g1k3l04oasc4xmgak3purmgx57jn&ep=v1_gifs_search&rid=200.webp&ct=g'); 
-    background-repeat: no-repeat;
-    background-size: 550px;
-    background-position: top;
-    
-    
-}
-#minato:hover {
-    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDR6dTE3bnpoN3hmeDVtbWFiMnNtbGFncWpsMWIycXNpeTdjdjVwNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/XFLSzB1E7gYdW/200.webp'); 
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
 }
 
 
